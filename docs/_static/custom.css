@@ -1,0 +1,15 @@
+/* White background behind the logo and search box (RTD sidebar header). */
+.wy-side-nav-search {
+    background-color: #ffffff;
+}
+
+/* Keep the version label readable now that the background is white. */
+.wy-side-nav-search .version,
+.wy-side-nav-search > div.version {
+    color: #404040;
+}
+
+/* Give the search box a light border so it stays visible on white. */
+.wy-side-nav-search input[type="text"] {
+    border: 1px solid #cccccc;
+}

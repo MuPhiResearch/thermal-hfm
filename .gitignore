@@ -1,0 +1,23 @@
+# Sphinx build output (rebuilt by CI, never committed)
+docs/_build/
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# MATLAB
+*.asv
+*.autosave
+*.mex*
+*.slxc
+slprj/
+octave-workspace
+
+# Editors / OS
+.DS_Store
+Thumbs.db
+*~
+.vscode/
+.idea/
