@@ -14,7 +14,7 @@ abstract: >-
 type: software
 authors:
   # Add "orcid: https://orcid.org/0000-0000-0000-0000" under any author when available.
-  - family-names: "Najafi Silab"
+  - family-names: "Najafi-Silab"
     given-names: "Reza"
     affiliation: "Institute of GeoEnergy Engineering (IGE), School of Energy, Geoscience, Infrastructure & Society, Heriot-Watt University, Edinburgh, UK"
   - family-names: "Egya"
@@ -23,8 +23,22 @@ authors:
   - family-names: "Doster"
     given-names: "Florian"
     affiliation: "Institute of GeoEnergy Engineering (IGE), School of Energy, Geoscience, Infrastructure & Society, Heriot-Watt University, Edinburgh, UK"
+  - family-names: "Menke"
+    given-names: "Hannah"
+    affiliation: "Institute of GeoEnergy Engineering (IGE), School of Energy, Geoscience, Infrastructure & Society, Heriot-Watt University, Edinburgh, UK"
+  - family-names: "Maes"
+    given-names: "Julien"
+    affiliation: "Institute of GeoEnergy Engineering (IGE), School of Energy, Geoscience, Infrastructure & Society, Heriot-Watt University, Edinburgh, UK"
 version: "1.0.0"
 date-released: "2026-08-25"
+doi: 10.5281/zenodo.22094685
+identifiers:
+  - type: doi
+    value: 10.5281/zenodo.22094685
+    description: "Concept DOI - always resolves to the latest release."
+  - type: doi
+    value: 10.5281/zenodo.22094686
+    description: "DOI for version 1.0.0."
 license: GPL-3.0-or-later
 repository-code: "https://github.com/MuPhiResearch/thermal-hfm"
 url: "https://muphiresearch.github.io/thermal-hfm/"

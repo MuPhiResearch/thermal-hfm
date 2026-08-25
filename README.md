@@ -4,6 +4,8 @@
 
 # thermal-hfm
 
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.22094685.svg)](https://doi.org/10.5281/zenodo.22094685)
+
 Coupled flow and heat transport through fractured reservoirs in the
 [MATLAB Reservoir Simulation Toolbox (MRST)](https://www.sintef.no/projectweb/mrst/),
 using the Embedded Discrete Fracture Model (EDFM) and its projection-based
@@ -153,6 +155,20 @@ formulations, and a reference for every function and state function:
   (2022). Projection-based embedded discrete fracture model (pEDFM) for flow
   and heat transfer in real-field geological formations with corner-point
   grids. *Advances in Water Resources*, 159, 104091.
+
+## Citation
+
+If you use thermal-hfm in your work, please cite it via its DOI:
+
+> Najafi-Silab, R., Egya, D., Doster, F., Menke, H., & Maes, J. (2026).
+> *thermal-hfm: coupled flow and heat transport through embedded discrete
+> fractures in MRST*. Zenodo.
+> https://doi.org/10.5281/zenodo.22094685
+
+That DOI always resolves to the newest release; the DOI for v1.0.0
+specifically is [10.5281/zenodo.22094686](https://doi.org/10.5281/zenodo.22094686).
+Machine-readable metadata is in [CITATION.cff](CITATION.cff), which GitHub
+exposes through the "Cite this repository" button.
 
 ## License
 

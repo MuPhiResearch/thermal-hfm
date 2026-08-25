@@ -8,8 +8,8 @@ import sys
 
 # -- Project information -----------------------------------------------------
 project = 'Thermal HFM'
-copyright = '2025-2026, Reza Najafi Silab, David Egya, Florian Doster'
-author = 'Reza Najafi Silab, David Egya, Florian Doster'
+copyright = '2025-2026, Reza Najafi-Silab, David Egya, Florian Doster'
+author = 'Reza Najafi-Silab, David Egya, Florian Doster'
 release = '1.0'
 
 # -- General configuration ---------------------------------------------------
