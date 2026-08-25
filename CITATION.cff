@@ -1,0 +1,40 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite it using the metadata from this file."
+title: "thermal-hfm: coupled flow and heat transport through embedded discrete fractures in MRST"
+abstract: >-
+  A third-party module for the MATLAB Reservoir Simulation Toolbox (MRST) that
+  simulates coupled flow and heat transport through fractured reservoirs using
+  the Embedded Discrete Fracture Model (EDFM) and its projection-based
+  extension (pEDFM). It bridges MRST's geothermal and hfm/shale modules by
+  computing thermal non-neighbouring-connection (NNC) transmissibilities,
+  providing a single EDFM/pEDFM-aware model class (GeothermalHFMModel), and
+  supplying state functions for the extended connectivity that fractured grids
+  require. Supports single-phase water and H2O + NaCl brine with the Spivey
+  equation of state, and state-dependent thermal conductivities.
+type: software
+authors:
+  # Add "orcid: https://orcid.org/0000-0000-0000-0000" under any author when available.
+  - family-names: "Najafi Silab"
+    given-names: "Reza"
+    affiliation: "Institute of GeoEnergy Engineering (IGE), School of Energy, Geoscience, Infrastructure & Society, Heriot-Watt University, Edinburgh, UK"
+  - family-names: "Egya"
+    given-names: "David"
+    affiliation: "Institute of GeoEnergy Engineering (IGE), School of Energy, Geoscience, Infrastructure & Society, Heriot-Watt University, Edinburgh, UK"
+  - family-names: "Doster"
+    given-names: "Florian"
+    affiliation: "Institute of GeoEnergy Engineering (IGE), School of Energy, Geoscience, Infrastructure & Society, Heriot-Watt University, Edinburgh, UK"
+version: "1.0.0"
+date-released: "2026-08-25"
+license: GPL-3.0-or-later
+repository-code: "https://github.com/MuPhiResearch/thermal-hfm"
+url: "https://muphiresearch.github.io/thermal-hfm/"
+keywords:
+  - reservoir simulation
+  - geothermal energy
+  - heat transport
+  - fractured reservoirs
+  - embedded discrete fracture model
+  - EDFM
+  - pEDFM
+  - MRST
+  - MATLAB
