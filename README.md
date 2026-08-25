@@ -51,13 +51,13 @@ The module belongs in MRST's `solvers/` directory, alongside `hfm` itself.
 Either clone it directly:
 
 ```bash
-git clone https://github.com/rezanajafisilab/thermal-hfm.git /path/to/mrst/solvers/thermal-hfm
+git clone https://github.com/MuPhiResearch/thermal-hfm.git /path/to/mrst/solvers/thermal-hfm
 ```
 
 or, if you keep MRST in git, add it as a submodule:
 
 ```bash
-git submodule add https://github.com/rezanajafisilab/thermal-hfm.git solvers/thermal-hfm
+git submodule add https://github.com/MuPhiResearch/thermal-hfm.git solvers/thermal-hfm
 ```
 
 MRST discovers modules under `solvers/` automatically. If yours lives
@@ -103,7 +103,7 @@ model = GeothermalHFMModel(G, rock, fluid, 'fractureMethod', 'auto');
 ```
 
 Each step is described in detail in the
-[documentation](https://rezanajafisilab.github.io/thermal-hfm/).
+[documentation](https://muphiresearch.github.io/thermal-hfm/).
 
 ## Examples
 
@@ -136,7 +136,7 @@ docs/             Sphinx documentation source
 Full documentation, including the governing equations, the EDFM and pEDFM
 formulations, and a reference for every function and state function:
 
-**https://rezanajafisilab.github.io/thermal-hfm/**
+**https://muphiresearch.github.io/thermal-hfm/**
 
 ## References
 
