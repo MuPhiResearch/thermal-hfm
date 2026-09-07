@@ -148,15 +148,20 @@ lambdaF_eff = lambdaF .* pv ./ vol;
 
 % --- Rock thermal transmissibility ---
 % HTr = CI * (solid1 + solid2) / (solid1/lambdaR1 + solid2/lambdaR2)
-h1 = solid(c1) ./ lambdaR_eff(c1);
-h2 = solid(c2) ./ lambdaR_eff(c2);
+% solid./lambdaR_eff simplifies exactly to vol./lambdaR (lambdaR_eff is
+% proportional to solid), which stays defined when a cell has no solid
+% volume, i.e. porosity 1.  Written in the reduced form so a pure-fluid
+% fracture does not produce 0/0.
+h1 = vol(c1) ./ lambdaR(c1);
+h2 = vol(c2) ./ lambdaR(c2);
 ht = solid(c1) + solid(c2);
 G.nnc.transHr = CI .* (ht ./ (h1 + h2));
 
 % --- Fluid thermal transmissibility ---
 % HTf = CI * (pv1 + pv2) / (pv1/lambdaF1 + pv2/lambdaF2)
-h1 = pv(c1) ./ lambdaF_eff(c1);
-h2 = pv(c2) ./ lambdaF_eff(c2);
+% Same reduction for the fluid channel (pv./lambdaF_eff == vol./lambdaF).
+h1 = vol(c1) ./ lambdaF(c1);
+h2 = vol(c2) ./ lambdaF(c2);
 ht = pv(c1) + pv(c2);
 G.nnc.transHf = CI .* (ht ./ (h1 + h2));
 
