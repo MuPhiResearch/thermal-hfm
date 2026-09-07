@@ -6,6 +6,8 @@
 
 [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.22094685.svg)](https://doi.org/10.5281/zenodo.22094685)
 
+**[Poster (PDF)](docs/_static/poster.pdf)** Awarded Best Student Poster Prize, InterPore UK Chapter Conference 2026.
+
 Coupled flow and heat transport through fractured reservoirs in the
 [MATLAB Reservoir Simulation Toolbox (MRST)](https://www.sintef.no/projectweb/mrst/),
 using the Embedded Discrete Fracture Model (EDFM) and its projection-based
@@ -165,8 +167,8 @@ If you use thermal-hfm in your work, please cite it via its DOI:
 > fractures in MRST*. Zenodo.
 > https://doi.org/10.5281/zenodo.22094685
 
-That DOI always resolves to the newest release; the DOI for v1.0.0
-specifically is [10.5281/zenodo.22094686](https://doi.org/10.5281/zenodo.22094686).
+That DOI always resolves to the newest release; each individual release also
+receives its own version DOI, listed on the Zenodo record.
 Machine-readable metadata is in [CITATION.cff](CITATION.cff), which GitHub
 exposes through the "Cite this repository" button.
 
